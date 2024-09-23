@@ -1,0 +1,61 @@
+:root {
+    --prim: #26292e;
+    --sec: #e7718b;
+    --tert: #f4f4f6;
+    --grad: radial-gradient(
+        at top center,
+        #fce3e7,
+        #e7718b
+    );
+    --font1:  "Sofia", cursive;
+    --font2: "Noto Sans", sans-serif;
+    --sec3: #ffffff;
+    --mid-border: #fce3e7;
+    --btnColor: #424240;
+}
+
+*{box-sizing:border-box;}
+
+#hs1Text {
+    font-family: var(--font1);
+}
+
+#headerSection, .footer {
+    padding: 8px 0;
+    background-color: var(--prim);
+}
+
+#mainSection1 {
+    padding: 30px 0;
+    background-image:var(--grad);
+}
+
+#mainSection2 {
+    padding: 20px 0;
+    border-bottom: 10px solid  var(--mid-border);
+    background-color: var(--tert);
+}
+
+#mainSection3 {
+    padding: 20px 0;
+    background-color: var(--sec3);
+}
+
+.btn {
+    background-color: var(--btnColor);
+}
+
+.search-box {
+    height: 150px;
+    width: 300px;
+    background-color: #424240;
+    border: 5px solid #aaa;
+}
+
+#welcomeText {
+    font-family: var(--font2);
+}
+
+.content-heading, .content-text, .content-text2, .product-heading, .comments-heading, .comment {
+    font-family: var(--font2);
+}
